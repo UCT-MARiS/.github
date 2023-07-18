@@ -5,3 +5,4 @@ This repository contains public-facing assets for the UCT MARiS GitHub Organisat
 ## Repository Contents
 
 - [profile/README.md](./profile/README.md) - The public README for the UCT MARiS GitHub Organization.
+- (Invisible) - Organisational Discussions.
