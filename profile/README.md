@@ -28,3 +28,5 @@ The MARiS Centre is structured around inter-related science foci:
 ## More Information
 
 Please visit the [MARiS website](https://maris.uct.ac.za) and our social media accounts listed above for more information.
+
+___
