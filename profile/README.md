@@ -14,7 +14,7 @@ Our main objectives are:
 * Support students and their integration into the academic environment, particularly supporting interdisciplinarity to address complex problems in interconnected marine systems;
 * Develop technological and innovative solutions to interdisciplinary marine problems and for extreme conditions like the polar environment;
 * Promote and maintain post-graduate training courses, including interdisciplinary curricula such as the Applied Ocean Sciences Master course;
-* Contribute to national programmes and infrastructure (e.g., DST SARIR programmes such as BIOGRIP, SAPRI)
+* Contribute to national programmes and infrastructure (e.g., [DST SARIR](https://www.dst.gov.za/images/Attachments/Department_of_Science_and_Technology_SARIR_2016.pdf) programmes such as [BIOGRIP](https://www.biogrip.ac.za), [SAPRI](https://www.sanap.ac.za/south-african-polar-research-infrastructure-sapri-launch-of-the-preparatory-phase))
 * Serve as a single marine entry point to UCT, facilitating interactions with stakeholders and potential partners.
 
 ## Research
@@ -22,7 +22,7 @@ Our main objectives are:
 The MARiS Centre is structured around inter-related science foci:
 
 1. Antarctic and Southern Ocean Research,
-2. Marine Research on the southern African margin, and
+2. Marine Research on the Southern African Margin, and
 3. Innovation in Chemical, Materials and Observational Engineering.
 
 ## More Information
