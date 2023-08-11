@@ -1,0 +1,38 @@
+name: "Check Join Request"
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  mark-invalid:
+    name: Mark Invalid
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    if: contains(github.event.issue.body, '4th Year') || contains(github.event.issue.body, 'External')
+
+    steps:
+      - name: Add Invalid
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: "add-labels"
+          labels: "invalid"
+
+      - name: Comment Invalid
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: "create-comment"
+          body: |
+            This issue was marked as invalid because you do not meet the criteria for joining this Org.
+
+            4th Year/Honours students are not permitted to join this Org, only UCT postgraduate students and staff are.
+            External collaborators are also not permitted to join this Org, and must be added as collaborators to individual repositories.
+
+            Please reopen and comment on this issue if you believe you have been granted and exception.
+
+      - name: Close Issue
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: "close-issue"

@@ -29,4 +29,10 @@ The MARiS Centre is structured around inter-related science foci:
 
 Please visit the [MARiS website](https://maris.uct.ac.za) and our social media accounts listed above for more information.
 
+## Joining this Organisation
+
+Are you a student or staff member who needs access to this GitHub organisation?
+
+Please request access by [opening a "Join Request" issue](https://github.com/UCT-MARiS/.github/issues/new/choose) on the [UCT-MARiS/.github repository](https://github.com/UCT-MARiS/.github).
+
 ___

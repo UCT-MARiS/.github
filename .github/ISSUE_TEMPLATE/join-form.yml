@@ -1,0 +1,63 @@
+name: Join Request
+description: Request to Join the MARiS GitHub Org
+title: MARiS Org Join Request
+labels:
+  - "join request"
+assignees:
+  - "LawrenceStanton"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in joining the MARiS GitHub Org. Please fill out the following form to request access to the MARiS GitHub Org.
+
+  - type: input
+    id: name
+    attributes:
+      label: Your Name
+      description: Your real name.
+      placeholder: John Doe
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      description: Your student class or role.
+      options:
+        - 4th Year / Honours
+        - Postgrad
+        - Staff
+        - External
+    validations:
+      required: true
+
+  - type: dropdown
+    id: supervisor
+    attributes:
+      label: Supervisor
+      description: Your supervisor.
+      options:
+        - "Marcello Vichi"
+        - "Robyn Verrinder"
+        - "Sarah Fawcett"
+        - "Riesna Audh"
+        - "Tokoloho Rampai"
+        - "Rutger Marquart"
+        - "Other"
+      multiple: true
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Code of Conduct
+      description: |
+        Upon joining the MARiS GitHub Org, you agree to read and abide by the MARiS GitHub Org Code of Conduct and its required standards.
+        This may be found on the [MARiS GitHub Org Overview](https://github.com/UCT-MARiS) page once you are admitted.
+      options:
+        - label: I agree
+          required: true
